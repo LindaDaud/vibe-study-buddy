@@ -56,7 +56,7 @@ Students often spend hours manually creating study materials like flashcards fro
     Open your web browser and navigate to `http://127.0.0.1:5000`.
 
 ## Team Members
-* **Linda Daud:** - [daudlinda805@gmail.com]
-* **Charles Ojem:** - [charojem@gmail.com]
+* **Linda Daud:** - daudlinda805@gmail.com
+* **Charles Ojem:** - charojem@gmail.com
 ---
 **Happy coding!** 🚀
