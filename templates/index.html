@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Buddy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Study Buddy</h1>
+        <p>Paste your study notes below and let the AI generate flashcards for you!</p>
+        <textarea id="notesInput" placeholder="Paste your study notes here..." rows="10"></textarea>
+        <button id="generateBtn">Generate Flashcards</button>
+        <div id="flashcardContainer"></div>
+        <div class="loading" id="loading">Generating flashcards...</div>
+
+        <div class="monetization-section">
+            <p>Support our work!</p>
+            <button id="buyCoffeeBtn">Buy us a coffee with IntaSend</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://checkout.intasend.com/sdk/js/v1/widget.js"></script>
+
+</body>
+</html>
